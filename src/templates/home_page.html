@@ -1,0 +1,40 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{% static 'style_homepage.css' %}">
+    <title>project</title>
+</head>
+<body>
+    <header class="v-header container">
+        <div class="fullscreen-video-wrap">
+            <video src="{% static 'vid.mov'%}" autoplay="true" loop="true">
+            </video>
+        </div>
+        <div class="header-overlay"></div>
+        <div class="header-content text-md-center">
+            <h1>FINAL YEAR PROJECT</h1>
+            <p>Welcome to new world of Cadastre: E-Cad </p>
+            <a href="#" class="btn">E-Cad</a>
+        </div>   
+    </header>
+
+
+    <section class="section section-a">
+        <div class='container'>
+            <h2>Section A</h2>
+            <p></p>
+        </div>
+    </section>
+
+    <section class="section section-b">
+        <div class='container'>
+            <h2>Section B</h2>
+            <p></p>
+        </div>
+    </section>
+</body>
+</html>
